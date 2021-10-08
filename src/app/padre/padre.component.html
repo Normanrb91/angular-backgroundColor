@@ -1,0 +1,22 @@
+
+
+
+<div class="container mt-5">
+
+    <h2>Pulsa para pintar de color</h2>
+    <hr>
+
+    <div class="d-flex justify-content-center mt-5 mb-5">
+        <button class="btn btn-primary ms-2" (click)="color = 'blue'">Azul</button>
+        <button class="btn btn-success ms-2" (click)="color = 'green'">Verde</button>
+        <button class="btn btn-danger ms-2"  (click)="color = 'red'">Rojo</button>
+    </div>
+
+    <hijo [col]="color"></hijo>
+
+</div>
+
+
+
+
+
